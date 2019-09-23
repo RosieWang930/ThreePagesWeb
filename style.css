@@ -1,0 +1,106 @@
+body{
+
+}
+
+h1{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  margin-top: -400px;
+  margin-left: 40px;
+  font-size: 120px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-shadow: 8px 4px #272a2b;
+}
+
+h2{
+  font-family: 'Manjari', sans-serif;
+  font-size: 18px;
+}
+
+h3{
+  font-family:'Manjari', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h5{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+
+.navbar{
+  background: #272a2b;
+  text-align: center;
+  position: fixed;
+  left: 208px;
+  top: 50px;
+}
+
+.navcontent{
+  display: inline-block;
+  margin-right: 176px;
+  margin-left: 176px;
+}
+
+.titlename{
+  text-align: center;
+  position: fixed;
+  left: 300px;
+  top: 800px;
+}
+
+.content{
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.fact{
+  position: static;
+  margin-left: 350px;
+  margin-right: 350px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 620px 620px;
+  background-color: rgba(10, 10, 10, 0.5);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 0.5px solid rgba(20, 20, 20, 5);
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+#homePics{
+  margin-top:200px;
+  margin-bottom: 30px;
+}
+
+#centerInfo{
+  display: inline-block;
+  vertical-align: top;
+  margin-top:80px;
+  margin-bottom: 30px;
+  margin-left:200px
+}
