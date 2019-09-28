@@ -9,57 +9,40 @@
 </head>
 
 <body>
-  <nav>
-    <a href="https://climate.nasa.gov"><img src="nasa-logo.png" alt="NASA" style="width:5%; position:fixed; top:30px; left:40px"></a>
-    <!--Set the fixed NASA Logo-->
-    <div class="navbar">
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='index.html';">
-        <h2 style="color: #FFFFFF">HOME</h2>
-        <!--Add navigation content using JavaScript-->
+  <div class="mainContainer">
+    <nav>
+      <div class="navbar">
+        <div class="navcontent activeLink"><a href="index.html">HOME</a></div>
+        <div class="navcontent"><a href="secondpage.html">FACTS</a></div>
+        <div class="navcontent"><a href="thirdpage.html">SOLUTIONS</a></div>
       </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='secondpage.html';">
-        <h2 style="color: #FFFFFF">FACTS</h2>
-        <!--Add navigation content using JavaScript-->
+    </nav>
+    <!--Create navigation bar-->
+
+    <section>
+      <div class="homeContent">
+        <div class="content" id="picOne">
+          <h1>Climate Change</h1>
+        </div>
+        <div class="content" id="picTwo">
+          <h2><mark style="background-color:white;">Climate change occurs when changes in Earth's climate system result in new weather patterns that remain in place for an extended period of time. This length of time can be as short as a few decades to as long as millions of years.</mark></h2>
+        </div>
+        <div class="content" id="picThree">
+          <h2><mark style="background-color:white;">The climate system comprises five interacting parts, the atmosphere (air), hydrosphere (water), cryosphere (ice and permafrost), biosphere (living things), and lithosphere (earth's crust and upper mantle). </mark></h2>
+        </div>
       </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='thirdpage.html';">
-        <h2 style="color: #FFFFFF">SOLUTION</h2>
-        <!--Add navigation content using JavaScript-->
+      <!--3 pictures with the introduction of climate change-->
+
+    </section>
+
+    <footer>
+      <div class="footerblock">
+        <h5>© 2019 by Ruoxi Wang</h5>
+        <!--Add a footer-->
       </div>
-    </div>
-    <!--Build the navigation bar-->
-  </nav>
+    </footer>
+  </div>
 
-  <section>
-    <div class="titlename" text-align= center>
-      <h1>CLIMATE CHANGE</h1>
-      <!--Write the title-->
-    </div>
-    <div class="content" style="margin-top:150px;">
-      <img src="Climate+Change_hero.jpg" alt="ice" width=100%>
-      <!--Add background picture-->
-    </div>
-
-    <div class="content" id="homePics">
-      <img src="arid.jpg" alt="arid" width=100%>
-      <!--Add background picture-->
-    </div>
-
-    <div class="content" id="homePics">
-      <img src="ice.jpg" alt="arid" width=100%>
-      <!--Add background picture-->
-    </div>
-
-    <div class="content" id="homePics">
-      <iframe width=100% height=700px src="https://www.youtube.com/embed/ap24Ep9vjB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!--Add youtube video-->
-    </div>
-
-  </section>
-
-  <footer>
-    <h3>© 2019 by Ruoxi Wang</h3>
-    <!--Add a footer-->
-  </footer>
 
 </body>
 

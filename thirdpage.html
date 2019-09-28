@@ -9,50 +9,46 @@
 </head>
 
 <body>
-  <nav>
-    <a href="https://climate.nasa.gov"><img src="nasa-logo.png" alt="NASA" style="width:5%; position:fixed; top:30px; left:40px"></a>
-    <!--Set the fixed NASA Logo-->
+  <div class="mainContainer">
     <div class="navbar">
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='index.html';">
-        <h2 style="color: #FFFFFF">HOME</h2>
-        <!--Add navigation content using JavaScript-->
-      </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='secondpage.html';">
-        <h2 style="color: #FFFFFF">FACTS</h2>
-        <!--Add navigation content using JavaScript-->
-      </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='thirdpage.html';">
-        <h2 style="color: #FFFFFF">SOLUTION</h2>
-        <!--Add navigation content using JavaScript-->
-      </div>
+      <div class="navcontent activeLink"><a href="index.html">HOME</a></div>
+      <div class="navcontent"><a href="secondpage.html">FACTS</a></div>
+      <div class="navcontent"><a href="thirdpage.html">SOLUTIONS</a></div>
     </div>
-    <!--Build the navigation bar-->
-  </nav>
+    <!--Create navigation bar-->
 
-  <section>
-    <h5 id="homePics" style="margin-bottom:20px">10 Solutions for Climate Change</h5>
-    <!--Add a title-->
-    <h2 style="text-align:center; margin-bottom:80px">By David Biello</h2>
-    <!--Add the author-->
+    <section>
+      <div class="secondContent">
+        <h3>10 Solutions for Climate Change</h3>
+        <!--Add a title-->
+        <h4 style="margin-top:1vmin;margin-bottom: 5vmin;">By David Biello</h4>
+        <!--Add the author-->
+      </div>
 
-    <div class="grid-container">
-      <div class="grid-item"><h3>Forego Fossil Fuels</h3><h2 style="text-align:left">Try to employ alternatives when possible—plant-derived plastics, biodiesel, wind power—and to invest in the change, be it by divesting from oil stocks or investing in companies practicing carbon capture and storage.</h2></div>
-      <div class="grid-item"><h3>Infrastructure Upgrade</h3><h2 style="text-align:left">Energy-efficient buildings and improved cement-making processes (such as using alternative fuels to fire up the kiln) could reduce greenhouse gas emissions in the developed world and prevent them in the developing world.</h2></div>
-      <div class="grid-item"><h3>Move Closer to Work</h3><h2 style="text-align:left">Transportation is the second leading source of greenhouse gas emissions in the U.S. (burning a single gallon of gasoline produces 20 pounds of CO2). But it doesn't have to be that way.</h2></div>
-      <div class="grid-item"><h3>Consume Less</h3><h2 style="text-align:left">The easiest way to cut back on greenhouse gas emissions is simply to buy less stuff. Whether by forgoing an automobile or employing a reusable grocery sack, cutting back on consumption results in fewer fossil fuels being burned to extract, produce and ship products around the globe.</h2></div>
-      <div class="grid-item"><h3>Be Efficient</h3><h2 style="text-align:left">A potentially simpler and even bigger impact can be made by doing more with less. Citizens of many developed countries are profligate wasters of energy, whether by speeding in a gas-guzzling sport-utility vehicle or leaving the lights on when not in a room.</h2></div>
-      <div class="grid-item"><h3>Eat Smart, Go Vegetarian?</h3><h2 style="text-align:left">Corn grown in the U.S. requires barrels of oil for the fertilizer to grow it and the diesel fuel to harvest and transport it. Choosing food items that balance nutrition, taste and ecological impact is no easy task. </h2></div>
-      <div class="grid-item"><h3>Stop Cutting Down Trees</h3><h2 style="text-align:left">Every year, 33 million acres of forests are cut down. Timber harvesting in the tropics alone contributes 1.5 billion metric tons of carbon to the atmosphere. That represents 20 percent of human-made greenhouse gas emissions and a source that could be avoided relatively easily.</h2></div>
-      <div class="grid-item"><h3>Unplug</h3><h2 style="text-align:left">U.S. citizens spend more money on electricity to power devices when off than when on. Televisions, stereo equipment, computers, battery chargers and a host of other gadgets and appliances consume more energy when seemingly switched off, so unplug them instead.</h2></div>
-      <div class="grid-item"><h3>One Child</h3><h2 style="text-align:left">There are at least 6.6 billion people living today, a number that is predicted by the United Nations to grow to at least nine billion by mid-century.It remains unclear how many people the planet can comfortably sustain, but it is clear that per capita energy consumption must go down if climate change is to be controlled.</h2></div>
-      <div class="grid-item"><h3>Future Fuels</h3><h2 style="text-align:left">Replacing fossil fuels may prove the great challenge of the 21st century. Many contenders exist, ranging from ethanol derived from crops to hydrogen electrolyzed out of water, but all of them have some drawbacks, too, and none are immediately available at the scale needed.</h2></div>
-    </div>
-    <!--Build a grid to contain 10 facts-->
-  </section>
-  <footer>
-    <h3>© 2019 by Ruoxi Wang</h3>
-    <!--This is a footer-->
-  </footer>
+      <div class="secondContent">
+        <div class="grid-container">
+          <div class="grid-item"><h2>Forego Fossil Fuels</h2><h4 style="text-align:left">Try to employ alternatives when possible—plant-derived plastics, biodiesel, wind power—and to invest in the change, be it by divesting from oil stocks or investing in companies practicing carbon capture and storage.</h4></div>
+          <div class="grid-item"><h2>Infrastructure Upgrade</h2><h4 style="text-align:left">Energy-efficient buildings and improved cement-making processes (such as using alternative fuels to fire up the kiln) could reduce greenhouse gas emissions in the developed world and prevent them in the developing world.</h4></div>
+          <div class="grid-item"><h2>Move Closer to Work</h2><h4 style="text-align:left">Transportation is the second leading source of greenhouse gas emissions in the U.S. (burning a single gallon of gasoline produces 20 pounds of CO2). But it doesn't have to be that way.</h4></div>
+          <div class="grid-item"><h2>Consume Less</h2><h4 style="text-align:left">The easiest way to cut back on greenhouse gas emissions is simply to buy less stuff. Whether by forgoing an automobile or employing a reusable grocery sack, cutting back on consumption results in fewer fossil fuels being burned to extract, produce and ship products around the globe.</h4></div>
+          <div class="grid-item"><h2>Be Efficient</h2><h4 style="text-align:left">A potentially simpler and even bigger impact can be made by doing more with less. Citizens of many developed countries are profligate wasters of energy, whether by speeding in a gas-guzzling sport-utility vehicle or leaving the lights on when not in a room.</h4></div>
+          <div class="grid-item"><h2>Eat Smart, Go Vegetarian?</h2><h4 style="text-align:left">Corn grown in the U.S. requires barrels of oil for the fertilizer to grow it and the diesel fuel to harvest and transport it. Choosing food items that balance nutrition, taste and ecological impact is no easy task. </h4></div>
+          <div class="grid-item"><h2>Stop Cutting Down Trees</h2><h4 style="text-align:left">Every year, 33 million acres of forests are cut down. Timber harvesting in the tropics alone contributes 1.5 billion metric tons of carbon to the atmosphere. That represents 20 percent of human-made greenhouse gas emissions and a source that could be avoided relatively easily.</h4></div>
+          <div class="grid-item"><h2>Unplug</h2><h4 style="text-align:left">U.S. citizens spend more money on electricity to power devices when off than when on. Televisions, stereo equipment, computers, battery chargers and a host of other gadgets and appliances consume more energy when seemingly switched off, so unplug them instead.</h4></div>
+          <div class="grid-item"><h2>One Child</h2><h4 style="text-align:left">There are at least 6.6 billion people living today, a number that is predicted by the United Nations to grow to at least nine billion by mid-century.It remains unclear how many people the planet can comfortably sustain, but it is clear that per capita energy consumption must go down if climate change is to be controlled.</h4></div>
+          <div class="grid-item"><h2>Future Fuels</h2><h4 style="text-align:left">Replacing fossil fuels may prove the great challenge of the 21st century. Many contenders exist, ranging from ethanol derived from crops to hydrogen electrolyzed out of water, but all of them have some drawbacks, too, and none are immediately available at the scale needed.</h4></div>
+        </div>
+        <!--Build a grid to contain 10 facts-->
+      </div>
+
+    </section>
+    <footer>
+      <div class="footerblock">
+        <h5>© 2019 by Ruoxi Wang</h5>
+        <!--Add a footer-->
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

@@ -9,84 +9,70 @@
 </head>
 
 <body>
-  <nav>
-    <a href="https://climate.nasa.gov"><img src="nasa-logo.png" alt="NASA" style="width:5%; position:fixed; top:30px; left:40px"></a>
-    <!--Set the fixed NASA Logo-->
-    <div class="navbar">
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='index.html';">
-        <h2 style="color: #FFFFFF">HOME</h2>
-        <!--Add navigation content using JavaScript-->
+  <div class="mainContainer">
+    <nav>
+      <div class="navbar">
+        <div class="navcontent activeLink"><a href="index.html">HOME</a></div>
+        <div class="navcontent"><a href="secondpage.html">FACTS</a></div>
+        <div class="navcontent"><a href="thirdpage.html">SOLUTIONS</a></div>
       </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='secondpage.html';">
-        <h2 style="color: #FFFFFF">FACTS</h2>
-        <!--Add navigation content using JavaScript-->
+    </nav>
+    <!--Create navigation bar-->
+
+    <section>
+      <div class="secondContent">
+        <h3 style="font-size:7vmin"> What is causing climate change? </h3>
+        <h4>Geological records stretching back millions of years indicate a number of large variations in Earth’s past climate. These have been caused by many natural factors, including changes in the sun, volcanoes, Earth’s orbit and CO2 levels.
+          However, comprehensive assessment by scientists shows that it is extremely likely that human activity has been the dominant cause of warming since the mid-20th Century.</h2>
       </div>
-      <div class="navcontent" style="cursor: pointer;" onclick="window.location='thirdpage.html';">
-        <h2 style="color: #FFFFFF">SOLUTION</h2>
-        <!--Add navigation content using JavaScript-->
-      </div>
-    </div>
-    <!--Build the navigation bar-->
-  </nav>
+      <!--Add a paragraph about the cause of climate change-->
 
-  <section>
-    <div id="homePics">
-      <h5> What is causing climate change? </h5>
-    </div>
-    <!--Have a title-->
 
-    <div class="fact">
-      <h2>Geological records stretching back millions of years indicate a number of large variations in Earth’s past climate. These have been caused by many natural factors, including changes in the sun, volcanoes, Earth’s orbit and CO2 levels.
-        However, comprehensive assessment by scientists shows that it is extremely likely that human activity has been the dominant cause of warming since the mid-20th Century.</h2>
-    </div>
-    <!--Describe the question-->
-
-    <div class="inline">
-      <div id="centerInfo">
-        <iframe src="https://data.worldbank.org/share/widget?indicators=EN.ATM.CO2E.KT&topics=%5Bobject%20Object%5D" width='600' height='400' frameBorder='0' scrolling="no"></iframe>
-        <!--Add a inline block of iframe picture-->
-      </div>
-
-      <div id="centerInfo" style="margin-left:150px">
-        <h4 style="margin-top:0px;text-align:left"> Greenhouse gas emissions </h4>
-        <div style="width:500px">
-          <h2 style="line-height: 1.8">Evidence that CO2 emissions are the cause of global warming is very robust. Scientists have known since the early 1800s that greenhouse gases in the atmosphere trap heat.
-            Global CO2 emissions from human activity have increased by over 400% since 1950. As a result, the concentration of CO2 in the air has reached more than 400 parts per million by volume (ppm), compared to about 280ppm in 1750 (around the
-            start of the Industrial Revolution).</h2>
+      <div class="secondContent">
+        <div class="twoColumnContainer">
+          <div class="aColumn" style="padding-top:7vmin">
+            <iframe src="https://data.worldbank.org/share/widget?indicators=EN.ATM.CO2E.KT&topics=%5Bobject%20Object%5D" width='100%' height='400vh' frameBorder='0' scrolling="no"></iframe>
+          </div>
+          <div class="aColumn" style="padding-left: 10vmin">
+            <h3> Greenhouse gas emissions </h3>
+            <h4>Evidence that CO2 emissions are the cause of global warming is very robust. Scientists have known since the early 1800s that greenhouse gases in the atmosphere trap heat.
+              Global CO2 emissions from human activity have increased by over 400% since 1950. As a result, the concentration of CO2 in the air has reached more than 400 parts per million by volume (ppm), compared to about 280ppm in 1750 (around the
+              start of the Industrial Revolution).</h4>
+          </div>
         </div>
       </div>
-      <!--Another inline block-->
-    </div>
+      <!--A iframe shows the C02 emissions and a paragraph introduced it-->
 
-    <div>
-      <h5> 7 Facts about Climate Change </h5>
-    </div>
-    <!--Start a new part-->
+      <div class="secondContent">
+        <h3> 7 Facts about Climate Change </h3>
+        <h4>
+          <ol>
+            <li>Climate change is real and man-made, and there is overwhelming scientific consensus that this is true</li>
+            <li>All major climate change reports are thoroughly researched and based on the most accurate, up-to-date science</li>
+            <li>Climate change studies are transparent</li>
+            <li>Addressing climate change will strengthen the economy</li>
+            <li>Climate scientists are underpaid — or not paid at all — for their work</li>
+            <li>Federal climate change reports are credible because they are written by scientists, not politicians</li>
+            <li>Climate change reports consider a wide range of possible future scenarios</li>
+          </ol>
+        </h4>
+      </div>
+      <!--Build a list of facts-->
 
-    <div class="fact"style="margin-bottom:80px">
-      <h2>
-        <ol>
-          <li>Climate change is real and man-made, and there is overwhelming scientific consensus that this is true</li>
-          <li>All major climate change reports are thoroughly researched and based on the most accurate, up-to-date science</li>
-          <li>Climate change studies are transparent</li>
-          <li>Addressing climate change will strengthen the economy</li>
-          <li>Climate scientists are underpaid — or not paid at all — for their work</li>
-          <li>Federal climate change reports are credible because they are written by scientists, not politicians</li>
-          <li>Climate change reports consider a wide range of possible future scenarios</li>
-        </ol>
-      </h2>
-    </div>
-    <!--Build a list of facts-->
-
-    <div class="content">
-      <img src="earth.jpg" alt="earth" style="width:100%; margin-bottom:80px">
-    </div>
-  </section>
+      <div class="secondContent">
+        <img src="earth.jpg" alt="earth" style="width:100%">
+      </div>
+      <!--a picture-->
+    </section>
 
 
-  <footer>
-    <h3>© 2019 by Ruoxi Wang</h3>
-  </footer>
+    <footer>
+      <div class="footerblock">
+        <h5>© 2019 by Ruoxi Wang</h5>
+        <!--Add a footer-->
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

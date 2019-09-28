@@ -1,106 +1,141 @@
 body{
-
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 2vmin;
 }
 
 h1{
   font-family: 'Bree Serif', serif;
-  text-align: center;
-  margin-top: -400px;
-  margin-left: 40px;
-  font-size: 120px;
+  font-size: 15vmin;
   color: #FFFFFF;
   letter-spacing: 1px;
   text-shadow: 8px 4px #272a2b;
+  text-align: center;
 }
 
 h2{
   font-family: 'Manjari', sans-serif;
-  font-size: 18px;
+  font-size: 3vmin;
+  padding: 20vmin;
+  line-height: 6vmin;
+  color: #FFF;
 }
 
 h3{
-  font-family:'Manjari', sans-serif;
-  text-align: center;
-  margin-bottom: 30px;
+  font-family: 'Bree Serif', serif;
+  font-size: 6vmin;
 }
 
 h4{
-  font-family: 'Bree Serif', serif;
-  text-align: center;
-  font-size: 40px;
+  font-family: 'Manjari', sans-serif;
+  font-size: 2.5vmin;
+  line-height: 4vmin;
 }
 
 h5{
-  font-family: 'Bree Serif', serif;
-  text-align: center;
-  font-size: 60px;
+  font-family:'Manjari', sans-serif;
+  margin-bottom: 3vmin;
+  color: #FFF;
 }
 
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar{
-  background: #272a2b;
-  text-align: center;
-  position: fixed;
-  left: 208px;
-  top: 50px;
+  display: flex;
+  background-color: #272a2b;
+  padding: 2vmin;
+  justify-content: center;
 }
 
 .navcontent{
-  display: inline-block;
-  margin-right: 176px;
-  margin-left: 176px;
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
 }
 
-.titlename{
-  text-align: center;
-  position: fixed;
-  left: 300px;
-  top: 800px;
+a, a:visited {
+  font-family: 'Manjari', sans-serif;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.homeContent{
+  display:flex;
+  flex-direction: column;
+  margin: 0 10vw 0 10vw;
 }
 
 .content{
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
+  display: flex;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7vh;
 }
 
-.fact{
-  position: static;
-  margin-left: 350px;
-  margin-right: 350px;
-  text-align: left;
-  line-height: 1.8;
+.footerblock{
+  display: flex;
+  background-color: #272a2b;
+  justify-content: center;
+  margin-top: 7vh;
+}
+
+.secondContent{
+  display:flex;
+  flex-direction: column;
+  margin: 0 10vw 0 10vw;
+  align-items: center;
+}
+
+.twoColumnContainer{
+  display:flex;
+  flex-direction: row;
+  align-items:flex-start;
+}
+
+.aColumn{
+  width:50%;
+  height:100%;
 }
 
 .grid-container {
+  display: flex;
+  text-align: center;
   display: grid;
-  grid-template-columns: 620px 620px;
+  grid-template-columns: 50% 50%;
   background-color: rgba(10, 10, 10, 0.5);
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 10px;
-  margin-bottom: 80px;
+  padding: 2vmin;
+}
+
+.grid-container h2{
+  padding: 2vmin;
+  line-height: 5vmin;
+  font-size: 4vmin;
+  color: #272a2b;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.9);
   border: 0.5px solid rgba(20, 20, 20, 5);
-  padding: 40px;
-  font-size: 30px;
+  padding: 3vmin;
   text-align: center;
   line-height: 1.5;
 }
 
-
-#homePics{
-  margin-top:200px;
-  margin-bottom: 30px;
+#picOne{
+  background-image: url('Climate+Change_hero.jpg');
 }
-
-#centerInfo{
-  display: inline-block;
-  vertical-align: top;
-  margin-top:80px;
-  margin-bottom: 30px;
-  margin-left:200px
+#picTwo{
+  background-image: url('arid.jpg');
+}
+#picThree{
+  background-image: url('ice.jpg');
 }
